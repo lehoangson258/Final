@@ -372,3 +372,15 @@ input.form-control {
     box-shadow: none;
     border-color: var(--brand);
 }
+
+
+/* neu quy vi mac benh */
+.col-sm-4 {
+    flex: 0 0 auto;
+    width: 27%;
+    padding-bottom: 80px;
+}
+
+/* .active {
+    margin: 15px;
+} */
