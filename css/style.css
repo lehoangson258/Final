@@ -381,6 +381,20 @@ input.form-control {
     padding-bottom: 80px;
 }
 
-/* .active {
-    margin: 15px;
-} */
+.col-sm-8 {
+    flex:0 0 auto;
+    width:66.66666667%;
+    padding-top: 35px;
+    padding-left: 70px;
+}
+
+.col-sm-8 img {
+    padding: 20px;
+    width: 200px;
+}
+
+.col-sm-8 p {
+    margin-top: 10px;
+    font-size: 20px;
+    color: #000000;
+}
