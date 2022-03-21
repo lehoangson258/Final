@@ -402,9 +402,16 @@ input.form-control {
 
 .accordion-flush .accordion-item{
     font-size: 15px;
-    border: 1px solid #bebebe;
+    border-top: 0px;
+    border: 1px solid #b6b6b6;
 }
 
-/* .accordion-flush .accordion-item:first-child{
-    border-top: 0px;
-} */
+.accordion-item h2 button{
+    text-align:left;
+    text decoration: none;
+    color: blue !important;
+    position: relative;
+    -webkit-box-shadow: 0 3px 10px rgba(0,0,0,0.2)!important;
+    box-shadow:0 3px 10px -2px rgba(0,0,0,0.2)!important;
+    boder-radius:0;
+}
