@@ -188,8 +188,8 @@ section {
 }
 
 .btn-brand:hover {
-    background-color: #d64022;
-    border-color: #d64022;
+    background-color: #130080;
+    border-color: #130080;
     color: #fff;
 }
 
@@ -378,14 +378,15 @@ input.form-control {
 .col-sm-4 {
     flex: 0 0 auto;
     width: 27%;
+    padding-top: 5px;
     padding-bottom: 80px;
 }
 
 .col-sm-8 {
     flex:0 0 auto;
     width:66.66666667%;
-    padding-top: 35px;
-    padding-left: 70px;
+    padding-top: 30px;
+    padding-left: 150px;
 }
 
 .col-sm-8 img {
@@ -398,3 +399,12 @@ input.form-control {
     font-size: 20px;
     color: #000000;
 }
+
+.accordion-flush .accordion-item{
+    font-size: 15px;
+    border: 1px solid #bebebe;
+}
+
+/* .accordion-flush .accordion-item:first-child{
+    border-top: 0px;
+} */
