@@ -17,9 +17,18 @@ body {
 
 /* search box */
 .btn-outline-success{
+    text-transform: inherit;
     color:#ffffff;
     border-color: #2949ff;
     background-color: #2949ff;
+}
+
+.btn-outline-success:hover{
+    background-color: #130080;
+}
+
+.d-flex{
+    padding: auto;
 }
 
 h1,h2,h3,h4,h5,h6,
